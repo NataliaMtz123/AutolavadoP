@@ -99,6 +99,8 @@ CREATE TABLE tbc_ventas (
   FOREIGN KEY (id_servicio) REFERENCES tbc_servicios(id_servicio)
 );
 
+
+
 package utils;
 
 import java.sql.Connection;
